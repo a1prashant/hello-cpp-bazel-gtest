@@ -2,6 +2,27 @@
 
 Project is to demonstrate the simple hello c++ application built by bazel and unit tested with gtest
 
+Folder structure:
+```
+PS D:\work\hello-cpp-bazel-gtest> tree /F
+Folder PATH listing for volume DATA
+Volume serial number is A848-7F00
+D:.
+│   LICENSE
+│   README.md
+│   WORKSPACE
+│
+└───main
+        BUILD
+        hello.cpp
+        hello.h
+        main.cpp
+        test.cpp
+
+PS D:\work\hello-cpp-bazel-gtest> 
+```
+Note the location of WORKSPACE file and BUILD file
+
 Quick view of all files:
 ![cpp-bazel-gtest](https://user-images.githubusercontent.com/38223320/121174361-7684a500-c877-11eb-928e-76b14f911ba2.PNG)
 
